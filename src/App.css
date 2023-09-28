@@ -1,0 +1,25 @@
+.country-list {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.country-list li {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.large{
+    width: 146px;
+    /* calc with 12px padding = 170, same as #country-list */
+}
+
+.country-list {
+    width: 170px;
+}
+
+/* given animation dosent have a scrollbar */
+.country-list::-webkit-scrollbar {
+    display: none;
+}

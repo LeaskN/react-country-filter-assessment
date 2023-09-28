@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="5.693">
+  <testsuite name="CountryFilter App" errors="0" failures="0" skipped="0" timestamp="2023-09-27T18:37:52" time="3.717" tests="6">
+    <testcase classname="CountryFilter App should render the Initial state without crash" name="CountryFilter App should render the Initial state without crash" time="0.165">
+    </testcase>
+    <testcase classname="CountryFilter App should have right countries in the rendered HTML after filtering" name="CountryFilter App should have right countries in the rendered HTML after filtering" time="0.063">
+    </testcase>
+    <testcase classname="CountryFilter App should filter countries without case sensitivity" name="CountryFilter App should filter countries without case sensitivity" time="0.046">
+    </testcase>
+    <testcase classname="CountryFilter App should support fuzzy search" name="CountryFilter App should support fuzzy search" time="0.07">
+    </testcase>
+    <testcase classname="CountryFilter App should show all contents on resetting the typed fields" name="CountryFilter App should show all contents on resetting the typed fields" time="0.15">
+    </testcase>
+    <testcase classname="CountryFilter App should should show correct content after a series of searches" name="CountryFilter App should should show correct content after a series of searches" time="0.127">
+    </testcase>
+  </testsuite>
+</testsuites>
